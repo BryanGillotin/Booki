@@ -1,0 +1,151 @@
+body {background-color: #F2F2F2;}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #0065FC;
+    font-weight: 700;
+    padding: 25px;
+    background-image: url("https://user.oc-static.com/upload/2022/06/20/16557165430377_FR_1155_P3_Banner-Booki.png");
+    background-attachment: local;
+    background-position: -10px -10px;
+    opacity:0.8;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px 20px 20px 20px;
+}
+
+h2 {
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.hebergement {
+    position: relative;
+    left: 1000px;
+    color:black;
+}
+
+.activites {
+    position: relative;
+    left: 1075px;
+    color: black;
+}
+
+.presentation {
+    position: relative;
+    left: 42px;
+    bottom: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pieddepage {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 60px 60px 60px;
+    gap: 1px;
+    background-image: url("https://user.oc-static.com/upload/2022/06/20/16557165430377_FR_1155_P3_Banner-Booki.png");
+    background-attachment: local;
+    background-position: -10px -10px;
+    opacity:0.8;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.apropos {
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+.fonctionnementdusite {
+    font-size: small;
+    color: black;
+    position: relative;
+    top: 15px;
+}
+
+.conditionsgenerales {
+    font-size: small;
+    color: black;
+    position: relative;
+    top: 20px;
+}
+
+.donneesetconfidentialite {
+    font-size: small;
+    color: black;
+    position: relative;
+    top: 25px;
+}
+
+.noshebergements {
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+.chartequalite {
+    font-size: small;
+    color: black;
+    position: relative;
+    top: 15px;
+}
+
+.proposervotrehotel {
+    font-size: small;
+    color: black;
+    position: relative;
+    top: 20px;
+}
+
+.assistance {
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+.centredaide {
+    font-size: small;
+    color: black;
+    position: relative;
+    top: 15px;
+}
+
+.nouscontacter {
+    font-size: small;
+    color: black;
+    position: relative;
+    top: 20px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    header {
+        overflow: scroll;
+    }
+
+    footer {
+        overflow: scroll;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    header {
+        overflow: scroll;
+    }
+
+    footer {
+        overflow: scroll;
+    }
+}
