@@ -10,7 +10,86 @@ body {
 
 /*Header*/
 
+.logo1{
+    position: absolute;
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+}
 
+.logo2 {
+    position: absolute;
+    width: 2.9px;
+    height: 5.15px;
+    left: 35.54px;
+    top: 9.53px;
+}
+
+.p1 {
+    position: absolute;
+    width: 575px;
+    height: 26px;
+    left: 55px;
+    top: 126px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.p2 {
+    position: absolute;
+    width: 296px;
+    height: 19px;
+    left: 55px;
+    top: 160px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.menu1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+
+    position: absolute;
+    left: 36.22%;
+    right: 34.12%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.menu2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+
+    position: absolute;
+    left: 83.46%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.menu3:hover {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0065FC;
+}
 
 /*Nav*/
 
