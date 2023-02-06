@@ -14,42 +14,44 @@ body {
     position: absolute;
     width: 61.09px;
     height: 19px;
-    left: 0px;
-    top: 0px;
+    left: 55px;
+    top: 44px;
 }
 
 .logo2 {
     position: absolute;
     width: 2.9px;
     height: 5.15px;
-    left: 35.54px;
-    top: 9.53px;
+    left: 90.54px;
+    top: 53.53px;
 }
 
 .p1 {
-    position: absolute;
-    width: 575px;
-    height: 26px;
-    left: 55px;
-    top: 126px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
+
+    position: absolute;
+    width: 575px;
+    height: 26px;
+    left: 55px;
+    top: 126px;
 }
 
 .p2 {
-    position: absolute;
-    width: 296px;
-    height: 19px;
-    left: 55px;
-    top: 160px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+
+    position: absolute;
+    width: 296px;
+    height: 19px;
+    left: 55px;
+    top: 160px;
 }
 
 .menu1 {
@@ -58,13 +60,10 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: black;
 
     position: absolute;
-    left: 36.22%;
-    right: 34.12%;
-    top: 0%;
-    bottom: 0%;
+    right: 207px;
+    top: 48px;
 }
 
 .menu2 {
@@ -73,13 +72,10 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: black;
 
     position: absolute;
-    left: 83.46%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    right: 77px;
+    top: 48px;
 }
 
 .menu3:hover {
@@ -93,7 +89,35 @@ body {
 
 /*Nav*/
 
+form {
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    background: #F2F2F2;
+    width: 50px;
+    height: 51px;
 
+    position: absolute;
+    left: 55px;
+    top: 219px;
+}
+
+input {
+    border: 1px solid #F2F2F2;
+    border-radius: 0px;
+    background: #FFFFFF;    
+    width: 219px;
+    height: 49px;
+
+    position: absolute;
+    top: -1.1px;
+    left: 40px;
+}
+
+.position {
+    position: absolute;
+    left: 15px;
+    top: 16px;
+}
 
 /*Main*/
 
