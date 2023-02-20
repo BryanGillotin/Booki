@@ -64,9 +64,6 @@ h1 {
     line-height: 26px;
 
     color: black;
-
-    width: 575px;
-    height: 26px;
 }
 
 .titre_haut_de_page p {
@@ -149,10 +146,12 @@ h1 {
 .filtres_recherche {
     display: flex;
 
-    grid-gap: 50px;
+    column-gap: 50px;
 
     padding: 30px;
     padding-bottom: 0px;
+
+    flex-wrap: wrap;
 }
 
 .filtres_recherche .filtre {
@@ -198,10 +197,10 @@ main {
 
     padding: 30px;
 
-    margin-right: 425px;
-
     background: rgb(230, 230, 230);
     border-radius: 20px;
+
+    flex: 2;
 }
 
 .hebergement .titre_hebergement {
@@ -212,9 +211,21 @@ main {
     line-height: 26px;
 }
 
-.hebergement {
+.hebergements {
+    display: flex;
+    gap: 30px;
 }
 
 /*Aside*/
 
+.populaires {
+    background-color: darkblue;
+
+    padding: 50px;
+
+    flex: 1;
+}
+
 /*Footer*/
+
+/*Media Queries*/
