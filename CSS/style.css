@@ -22,6 +22,11 @@ header {
     padding: 30px;
 }
 
+.image_logo {
+    width: 60px;
+    height: 20px;
+}
+
 .lien_hebergements_activites {
     display: flex;
 }
@@ -305,11 +310,71 @@ main {
     margin-top: 20px;
 }
 
+.activites {
+    display: grid;
+    grid-template-columns: 302px 302px 302px 302px;
+
+    gap: 35px;
+
+    margin-top: 50px;
+}
+
+.titre_activites {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.activite {
+    border-radius: 20px;
+
+    width: 302px;
+    height: 500.51px;
+
+    text-decoration: none;
+    color: black;
+}
+
+.activite_figure {
+    height: 444.51px;
+
+    margin: 0;
+}
+
+.images_activite {
+    object-fit: cover;
+
+    width: 302px;
+    height: 444.51px;
+
+    border-radius: 20px 20px 0px 0px;
+}
+
+.activite h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding-left: 15px;
+}
+
 /*Aside*/
 
 .populaires {
     display: flex;
     flex-direction: column;
+
+    gap: 40px;
 
     background: rgb(230, 230, 230);
     border-radius: 20px;
@@ -323,7 +388,7 @@ main {
     background: #ffffff;
     border-radius: 20px;
 
-    width: 100%;
+    width: 330px;
     height: 144px;
 
     text-decoration: none;
@@ -336,6 +401,9 @@ main {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
+
+    margin-top: -125px;
+    margin-left: 137px;
 }
 
 .populaire p {
@@ -344,6 +412,9 @@ main {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+
+    margin-left: 137px;
+    margin-top: -10px;
 }
 
 .titre_populaires {
@@ -361,6 +432,8 @@ main {
 }
 
 .images_populaire {
+    object-fit: cover;
+
     width: 137px;
     height: 144px;
 
@@ -369,6 +442,20 @@ main {
     box-sizing: border-box;
     border: 5px solid #ffffff;
     border-radius: 20px 0px 0px 20px;
+}
+
+.populaire_figure {
+    margin: 0;
+
+    height: 144px;
+}
+
+.populaire .icone_etoile:first-of-type {
+    padding-left: 137px;
+}
+
+.populaire .icone_etoile {
+    margin-top: 30px;
 }
 
 /*Footer*/
