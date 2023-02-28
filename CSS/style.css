@@ -388,6 +388,8 @@ main {
     background: #ffffff;
     border-radius: 20px;
 
+    position: relative;
+
     width: 330px;
     height: 144px;
 
@@ -450,12 +452,11 @@ main {
     height: 144px;
 }
 
-.populaire .icone_etoile:first-of-type {
-    padding-left: 137px;
-}
-
-.populaire .icone_etoile {
-    margin-top: 30px;
+.evaluation {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 138px;
 }
 
 /*Footer*/
