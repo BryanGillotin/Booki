@@ -5,17 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="https://booki.com" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="fontawesome/css/fontawesome.css"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2? family=Raleway:ital@1&display=swap"
             rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-            crossorigin="anonymous"
         />
         <title>Booki</title>
     </head>
@@ -29,8 +28,8 @@
                 />
             </div>
             <nav class="lien_hebergements_activites">
-                <a href="#hebergements_a_marseille">Hébergements</a>
-                <a href="#activites_a_marseille">Activités</a>
+                <a href="#ancre_hebergements">Hébergements</a>
+                <a href="#ancre_activites">Activités</a>
             </nav>
         </header>
         <div class="titre_haut_de_page">
@@ -68,11 +67,11 @@
             </div>
         </div>
         <p class="information">
-            <i class="fas fa-regular fa-info icone_info"></i>
+            <i class="fas fa-regular fa-info icone_information"></i>
             Plus de 500 logements sont disponibles dans cette ville
         </p>
         <main>
-            <div class="hebergements">
+            <div class="hebergements" id="ancre_hebergements">
                 <section class="hebergement_marseille">
                     <h2 class="titre_hebergement">Hébergement à Marseille</h2>
                     <a class="hebergement" href="#">
@@ -222,7 +221,7 @@
                     </a>
                 </aside>
             </div>
-            <section class="activites">
+            <section class="activites" id="ancre_activites">
                 <h2 class="titre_activites">Activités à Marseille</h2>
                 <a class="activite" href="#">
                     <figure class="activite_figure">
@@ -266,6 +265,25 @@
                 </a>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <section class="contact">
+                <div class="contacts">
+                    <h3>À propos</h3>
+                    <a href="#">Fonctionnement du site</a>
+                    <a href="#">Conditions générales</a>
+                    <a href="#">Données et confidentialité</a>
+                </div>
+                <div class="contacts">
+                    <h3>Nos hébergements</h3>
+                    <a href="#">Charte qualité</a>
+                    <a href="#">Proposer votre hôtel</a>
+                </div>
+                <div class="contacts">
+                    <h3>Assistance</h3>
+                    <a href="#">Centre d'aide</a>
+                    <a href="#">Nous contacter</a>
+                </div>
+            </section>
+        </footer>
     </body>
 </html>
