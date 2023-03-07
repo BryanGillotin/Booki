@@ -8,7 +8,12 @@
         <link
             rel="stylesheet"
             type="text/css"
-            href="fontawesome/css/fontawesome.css"
+            href="fontawesome/css/fontawesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="fontawesome/css/solid.min.css"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,7 +43,7 @@
         </div>
         <div class="barre_de_recherche">
             <form action="" method="get">
-                <i class="fas fa-map-marker-alt icone_position"></i>
+                <i class="fas fa-solid fa-location-dot icone_position"></i>
                 <input type="text" name="recherche" class="saisie_de_texte" />
                 <input
                     type="submit"
@@ -51,23 +56,23 @@
             <div class="titre">Filtres</div>
             <div class="filtre">
                 <i
-                    class="fas fa-sharp fa-solid fa-money-bill-wave icone_argent"
+                    class="fas fa-sharp fa-solid fa-money-bill-wave icone_filtre"
                 ></i
                 >Économique
             </div>
             <div class="filtre">
-                <i class="fas fa-duotone fa-person"></i>Familial
+                <i class="fas fa-duotone fa-person icone_filtre"></i>Familial
             </div>
             <div class="filtre">
-                <i class="fas fa-solid fa-heart icone_coeur"></i>Romantique
+                <i class="fas fa-solid fa-heart icone_filtre"></i>Romantique
             </div>
             <div class="filtre">
-                <i class="fas fa-solid fa-dog icone_animal"></i>Animaux
+                <i class="fas fa-solid fa-dog icone_filtre"></i>Animaux
                 autorisés
             </div>
         </div>
         <p class="information">
-            <i class="fas fa-regular fa-info icone_information"></i>
+            <i class="fas fa-sharp fa-regular fa-info icone_information"></i>
             Plus de 500 logements sont disponibles dans cette ville
         </p>
         <main>
@@ -167,7 +172,11 @@
                     <a class="bouton_afficher_plus" href="#">Afficher plus</a>
                 </section>
                 <aside class="populaires">
-                    <h2 class="titre_populaires">Les plus populaires</h2>
+                    <h2 class="titre_populaires">
+                        Les plus populaires<i
+                            class="fa-solid fa-chart-line icone_populaire"
+                        ></i>
+                    </h2>
                     <a class="populaire" href="#">
                         <figure class="populaire_figure">
                             <img
