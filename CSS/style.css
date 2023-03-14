@@ -281,6 +281,8 @@ main {
 
     text-decoration: none;
     color: black;
+
+    box-shadow: 0 3px 15px #0000004d;
 }
 
 .images_hebergement {
@@ -383,6 +385,8 @@ main {
 
     text-decoration: none;
     color: black;
+
+    box-shadow: 0 3px 15px #0000004d;
 }
 
 .activite_figure {
